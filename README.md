@@ -1,8 +1,6 @@
 # 使い方 #
 
-\# 最新のイメージを取得  
-$ docker pull centos:latest
+$ cd docker-centosjp  
 
 \# イメージを作成  
-$ code docker-centosjp  
-$ docker build -t centosjp .
+$ docker build -t <tag>/centosjp .
