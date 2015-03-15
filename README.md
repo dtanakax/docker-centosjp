@@ -18,11 +18,11 @@ git pull後に
 
     $ cd docker-centosjp
 
-\# イメージを作成
+イメージ作成
 
     $ docker build -t <tag>/centosjp .
 
-\# 起動しbash実行
+起動しbash実行
 
     $ docker run --name <name> -ti <tag>/centosjp /bin/bash
 
