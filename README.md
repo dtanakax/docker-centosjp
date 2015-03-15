@@ -14,13 +14,16 @@ centos7へ日本語サポートを追加したDockerコンテナイメージで�
 
 ### 使用方法
 
-git pull後に  
-$ cd docker-centosjp  
+git pull後に
 
-\# イメージを作成  
-$ docker build -t "tag"/centosjp .  
+    $ cd docker-centosjp
 
-\# 起動しbash実行  
-$ docker run --name os1 -ti "tag"/centosjp /bin/bash  
+\# イメージを作成
+
+    $ docker build -t <tag>/centosjp .
+
+\# 起動しbash実行
+
+    $ docker run --name <name> -ti <tag>/centosjp /bin/bash
 
 
