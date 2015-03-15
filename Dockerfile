@@ -32,6 +32,7 @@ RUN ln -fs /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 RUN ntpdate -s ntp.nict.jp
 
 # Adding the configuration file
+ADD start.sh /start.sh
 ADD vimrc /vimrc
 
 # Executing sh
