@@ -4,7 +4,7 @@
 ######################################################################
 
 # Set the base image
-FROM centos:latest
+FROM centos:centos7
 
 # File Author / Maintainer
 MAINTAINER tanaka@infocorpus.com
