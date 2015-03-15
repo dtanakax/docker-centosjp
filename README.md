@@ -1,5 +1,9 @@
 # docker-centosjp
 
+### Base Docker Image
+
+centos:centos7
+
 ### 説明
 
 centos7へ日本語サポートを追加したDockerコンテナイメージです。
