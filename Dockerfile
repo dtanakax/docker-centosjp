@@ -1,8 +1,3 @@
-######################################################################
-# Dockerfile to build CentOS7 for Japanese
-# Author: tanaka@infocorpus.com
-######################################################################
-
 # Set the base image
 FROM centos:centos7
 
@@ -30,10 +25,3 @@ RUN yum clean all
 RUN rm -f /etc/localtime
 RUN ln -fs /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 RUN ntpdate -s ntp.nict.jp
-
-# Adding the configuration file
-ADD start.sh /start.sh
-ADD vimrc /vimrc
-
-# Executing sh
-CMD ["/bin/bash", "/start.sh"]
