@@ -25,11 +25,3 @@ git pull後に
 起動しbash実行
 
     $ docker run --name <name> -ti <tag>/centosjp /bin/bash
-
-### 利用可能なボリューム
-
-以下のボリュームが利用可能
-
-    /dev              # UNIX ドメインソケット
-    /var/log          # ログ
-
