@@ -25,3 +25,6 @@ RUN yum clean all
 RUN rm -f /etc/localtime
 RUN ln -fs /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 RUN ntpdate -s ntp.nict.jp
+
+# Define mountable directories.
+VOLUME ["/dev", "/var/log"]
