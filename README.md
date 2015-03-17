@@ -1,3 +1,5 @@
+![centos 7.0.1406](https://img.shields.io/badge/centos-7.0.1406-brightgreen.svg) ![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+
 # docker-centosjp
 
 ### Base Docker Image
@@ -25,3 +27,7 @@ git pull後に
 起動しbash実行
 
     $ docker run --name <name> -ti <tag>/centosjp /bin/bash
+
+### License
+
+MIT
