@@ -14,8 +14,10 @@ RUN yum -y upgrade
 # Installing tools
 RUN yum install -y sudo passwd expect vim tar ntp
 
+# Remove unnecessary language
+COPY locale-archive /usr/lib/locale/locale-archive
+
 # Support locale jp
-RUN yum reinstall -y glibc-common
 ENV LANG ja_JP.utf8
 
 # Clean up
