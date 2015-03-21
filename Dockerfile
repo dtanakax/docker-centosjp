@@ -2,7 +2,7 @@
 FROM centos:centos7
 
 # File Author / Maintainer
-MAINTAINER tanaka@infocorpus.com
+MAINTAINER Daisuke Tanaka, tanaka@infocorpus.com
 
 # setup network
 RUN echo "NETWORKING=yes" > /etc/sysconfig/network
