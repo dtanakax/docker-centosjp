@@ -11,8 +11,8 @@ centos:centos7
 centos7へ日本語サポートを追加したDockerコンテナイメージです。
 各種コンテナイメージのベースとなります。
 
-[Dockerとは？](https://docs.docker.com/ "Dockerとは？")  
-[Docker Command Reference](https://docs.docker.com/reference/commandline/cli/ "Docker Command Reference")
+[Dockerとは？](https://docs.docker.com/)  
+[Docker Command Reference](https://docs.docker.com/reference/commandline/cli/)
 
 ### 使用方法
 
@@ -22,11 +22,11 @@ git pull後に
 
 イメージ作成
 
-    $ docker build -t <tag>/centosjp .
+    $ docker build -t tanaka0323/centosjp .
 
 起動しbash実行
 
-    $ docker run --name <name> -ti <tag>/centosjp /bin/bash
+    $ docker run --name <name> -ti tanaka0323/centosjp /bin/bash
 
 ### License
 
