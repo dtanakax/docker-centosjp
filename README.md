@@ -1,12 +1,15 @@
 ![centos 7.0.1406](https://img.shields.io/badge/centos-7.0.1406-brightgreen.svg) ![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
-# docker-centosjp
+docker-centosjp
+=====================
 
-### Base Docker Image
+Base Docker Image
+-----------------------
 
 centos:centos7
 
-### 説明
+説明
+-----------------------
 
 centos7へ日本語サポートを追加したDockerコンテナイメージです。
 各種コンテナイメージのベースとなります。
@@ -14,7 +17,8 @@ centos7へ日本語サポートを追加したDockerコンテナイメージで�
 [Dockerとは？](https://docs.docker.com/)  
 [Docker Command Reference](https://docs.docker.com/reference/commandline/cli/)
 
-### 使用方法
+使用方法
+-----------------------
 
 git pull後に
 
@@ -28,7 +32,8 @@ git pull後に
 
     $ docker run --name <name> -ti tanaka0323/centosjp /bin/bash
 
-### License
+License
+-----------------------
 
 The MIT License
 Copyright (c) 2015 Daisuke Tanaka
