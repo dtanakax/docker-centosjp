@@ -1,4 +1,4 @@
-![centos 7.0.1406](https://img.shields.io/badge/centos-7.0.1406-brightgreen.svg) ![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+![centos 7.1](https://img.shields.io/badge/centos-7.1-brightgreen.svg) ![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
 docker-centosjp
 =====================
