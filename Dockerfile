@@ -15,7 +15,7 @@ RUN yum -y upgrade
 COPY locale-archive /usr/lib/locale/locale-archive
 
 # Support locale jp
-ENV LANG ja_JP.utf8
+ENV LANG ja_JP.UTF-8
 
 # Clean up
 RUN yum clean all
