@@ -11,8 +11,7 @@ centos:centos7
 説明
 -----------------------
 
-centos7へ日本語サポートを追加したDockerコンテナイメージです。
-各種コンテナイメージのベースとなります。
+centos7へ日本語サポートを追加したDockerコンテナ作成設定
 
 [Dockerとは？](https://docs.docker.com/)  
 [Docker Command Reference](https://docs.docker.com/reference/commandline/cli/)
