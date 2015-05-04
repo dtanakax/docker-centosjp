@@ -16,14 +16,6 @@ centos7へ日本語サポートを追加したDockerコンテナ作成設定
 使用方法
 -----------------------
 
-git pull後に
-
-    $ cd docker-centosjp
-
-イメージ作成
-
-    $ docker build -t dtanakax/centosjp .
-
 起動しbash実行
 
     $ docker run --name <name> -ti dtanakax/centosjp /bin/bash
